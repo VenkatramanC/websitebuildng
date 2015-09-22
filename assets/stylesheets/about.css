@@ -1,0 +1,18 @@
+#about {
+  background-color: #C0C0C0; }
+  #about .first {
+    background-color: #FFFFFF; }
+  #about .second {
+    background-color: #3d6485;
+    line-height: 4em; }
+    #about .second .b1 {
+      background-color: #3d3a85; }
+    #about .second .b2 {
+      background-color: #3d3a85; }
+  #about .third {
+    background-color: #3d6485;
+    line-height: 4em; }
+    #about .third .b3 {
+      background-color: #3d4485; }
+
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,13 @@
+#info {
+  background-color: #4a626b; }
+  #info .last {
+    background-color: transparent; }
+  #info .contact {
+    background-color: #456A7B;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 20px; }
+    #info .contact .glyphicon {
+      background-color: orange; }
+
+/*# sourceMappingURL=info.css.map */
