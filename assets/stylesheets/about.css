@@ -1,0 +1,32 @@
+#about {
+  background-color: #C0C0C0; }
+  #about .first {
+    background-color: #FFFFFF; }
+    #about .first .rm-button {
+      background-color: #3d6485;
+      margin-top: 60px;
+      border-bottom: 10px;
+      border-right: 10px;
+      border-left: 10px;
+      border-top: 10px; }
+    #about .first .rm-buttonon {
+      background-color: #ffa179;
+      margin-top: 60px;
+      border-bottom: 10px;
+      border-right: 10px;
+      border-left: 10px;
+      border-top: 10px; }
+  #about .second {
+    background-color: #3d6485;
+    line-height: 4em; }
+    #about .second .b1 {
+      background-color: #3d3a85; }
+    #about .second .b2 {
+      background-color: #3d3a85; }
+  #about .third {
+    background-color: #3d6485;
+    line-height: 4em; }
+    #about .third .b3 {
+      background-color: #3d4485; }
+
+/*# sourceMappingURL=about.css.map */
