@@ -1,5 +1,5 @@
 body #land {
-  background-image: url("../images/mountain.png"); }
+  background-image: url("../images/mountain.jpg"); }
   body #land .first {
     color: #006666;
     background-color: #CCCCCC; }
@@ -7,11 +7,14 @@ body #land {
       font-weight: bold; }
   body #land .second {
     background-color: white;
-    height: 4em;
+    line-height: 40px;
     font-weight: bold;
     font-size: 15px;
-    text-align: center;
-    padding-top: 2%; }
+    text-align: center; }
+    body #land .second .number {
+      background-color: #3d5785; }
+    body #land .second .key {
+      background-color: orange; }
   body #land .navbar-nav > li > a {
     color: #100000;
     background-color: inherit; }
@@ -26,12 +29,13 @@ body #land {
   body #land .fourth {
     text-align: center; }
     body #land .fourth .extra {
-      margin-top: 31vh;
+      margin-top: 35vh;
       background-color: #3d5785;
       font-weight: bold; }
     body #land .fourth .alpha {
-      float: left;
-      background-color: #4a626b; }
+      background-color: #4a626b;
+      margin-left: -15px;
+      margin-top: 3.5vh; }
       body #land .fourth .alpha h5 {
         font-weight: bold;
         font-size: 19px;
@@ -39,8 +43,8 @@ body #land {
         padding-top: 1.35em; }
 body footer {
   background-color: #456A7B;
-  height: 6em;
   text-align: center;
-  color: #EFEFDD; }
+  color: #EFEFDD;
+  line-height: 80px; }
 
 /*# sourceMappingURL=main.css.map */

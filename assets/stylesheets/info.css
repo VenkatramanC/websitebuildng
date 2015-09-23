@@ -1,13 +1,15 @@
 #info {
   background-color: #4a626b; }
+  #info .first {
+    margin-top: 35px; }
+    #info .first h4 {
+      color: orange; }
   #info .last {
-    background-color: transparent; }
-  #info .contact {
-    background-color: #456A7B;
-    padding-bottom: 1em;
-    text-align: center;
     font-size: 20px; }
-    #info .contact .glyphicon {
-      background-color: orange; }
+    #info .last .key {
+      text-align: center;
+      background-color: #456A7B; }
+      #info .last .key .con {
+        background-color: orange; }
 
 /*# sourceMappingURL=info.css.map */

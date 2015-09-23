@@ -1,37 +1,44 @@
 #about {
     background-color: #C0C0C0;
-
- 
-
     .first {
         background-color: #FFFFFF;
+        .rm-button {
+            
+            background-color: rgba(61, 100, 133, 1);
+            
+            margin-top: 60px;
+            border-bottom: 10px;
+            border-right: 10px;
+            border-left: 10px;
+            border-top: 10px;
+        }
 
+         .rm-buttonon {
+            
+            background-color: rgba(255, 161, 121, 1);
+            margin-top: 60px;
+            border-bottom: 10px;
+            border-right: 10px;
+            border-left: 10px;
+            border-top: 10px;
+        }
     }
-
     .second {
         background-color: rgba(61, 100, 133, 1);
         line-height: 4em;
-        
-        
         .b1 {
-          background-color: rgba(61, 58, 133, 1); ;
+            background-color: rgba(61, 58, 133, 1);
+            ;
         }
         .b2 {
-          background-color: rgba(61, 58, 133, 1);
-
+            background-color: rgba(61, 58, 133, 1);
         }
-
-       
-
-       
-        
     }
     .third {
-      background-color: rgba(61, 100, 133, 1);
-       line-height: 4em;
-      
-      .b3 {
-        background-color: rgba(61, 68, 133, 1);
-      }
+        background-color: rgba(61, 100, 133, 1);
+        line-height: 4em;
+        .b3 {
+            background-color: rgba(61, 68, 133, 1);
+        }
     }
 }

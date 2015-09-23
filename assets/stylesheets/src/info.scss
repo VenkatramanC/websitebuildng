@@ -1,17 +1,22 @@
 #info {
     background-color: #4a626b;
     //height:25em;
-    .last {
-        background-color: transparent;
+    .first {
+        margin-top: 35px;
+        h4 {
+            color: orange;
+        }
     }
-    .contact {
-        background-color: #456A7B;
-        padding-bottom: 1em;
-        text-align: center;
+    .last {
         font-size: 20px;
-
-        .glyphicon {
-          background-color: orange;
+        .key {
+            //background-color: orange;
+            text-align: center;
+            background-color: #456A7B;
+           
+           .con{
+            background-color:orange;
+           }
         }
     }
 }
