@@ -1,46 +1,75 @@
 body #land {
-  background-image: url("../images/mountain.jpg"); }
+  background-color: #ECEDF1;
+  padding: 0;
+  overflow-x: hidden; }
   body #land .first {
-    color: #006666;
-    background-color: #CCCCCC; }
-    body #land .first h4 {
-      font-weight: bold; }
+    color: #304370; }
   body #land .second {
-    background-color: white;
-    line-height: 40px;
-    font-weight: bold;
-    font-size: 15px;
-    text-align: center; }
-    body #land .second .number {
-      background-color: #3d5785; }
+    background-color: #FBFBFB;
+    line-height: 40px; }
+    body #land .second .mail {
+      color: #100000;
+      text-align: right; }
     body #land .second .key {
-      background-color: orange; }
-  body #land .navbar-nav > li > a {
-    color: #100000;
-    background-color: inherit; }
+      background-color: #DA9F19;
+      color: #FFFFFF;
+      text-align: center; }
+    body #land .second .number {
+      background-color: #364C71;
+      color: #FFFFFF; }
   body #land .third {
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 5em;
-    margin-left: 22em;
-    margin-bottom: 12em; }
-    body #land .third h2 {
-      font-size: 30px; }
+    background-color: #F7B432;
+    height: 152px;
+    color: #FFFFFF; }
+    body #land .third .rower {
+      color: #FFFFFF; }
   body #land .fourth {
-    text-align: center; }
-    body #land .fourth .extra {
-      margin-top: 35vh;
-      background-color: #3d5785;
-      font-weight: bold; }
-    body #land .fourth .alpha {
-      background-color: #4a626b;
-      margin-left: -15px;
-      margin-top: 5.5vh; }
-      body #land .fourth .alpha h5 {
-        font-weight: bold;
-        font-size: 19px;
+    background-color: #F7B432;
+    text-align: center;
+    height: 210px;
+    color: #F9EAA3;
+    position: relative;
+    padding-left: 500px;
+    padding-bottom: 100px; }
+  body #land .index {
+    background-image: url("../images/Mountain.png");
+    z-index: 3;
+    position: relative;
+    background-size: cover;
+    margin-top: 135px;
+    height: 36em; }
+  body #land .index-img-text {
+    margin-top: -250px; }
+    body #land .index-img-text .text {
+      background-color: transparent;
+      color: #FFFFFF;
+      position: relative;
+      padding-top: 150px;
+      margin-top: 38px; }
+      body #land .index-img-text .text .text-ele {
+        background-color: #83959F;
+        position: relative;
         text-align: center;
-        padding-top: 1.35em; }
+        padding: 21.3px;
+        padding-right: 150px; }
+      body #land .index-img-text .text .icon {
+        background-color: #83959F;
+        line-height: 10px;
+        position: relative;
+        text-align: center;
+        left: 140px; }
+    body #land .index-img-text .form {
+      z-index: 55;
+      background-color: #354D71;
+      color: #FFFFFF;
+      padding: 30px;
+      position: relative;
+      right: 61px;
+      bottom: 40px;
+      width: 317px; }
+      body #land .index-img-text .form .button {
+        background-color: #F7B333;
+        text-align: center; }
 body footer {
   background-color: #456A7B;
   text-align: center;

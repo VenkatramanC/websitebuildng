@@ -1,66 +1,97 @@
-body {
-    #land {
-        background-image: url('../images/mountain.jpg');
-        .first {
-            color: #006666;
-            background-color: #CCCCCC;
-            h4 {
-                font-weight: bold;
-            }
-        }
-        .second {
-            background-color: white;
-            line-height: 40px;
-            font-weight: bold;
-            font-size: 15px;
-            text-align: center;
-            .number {
-                background-color: #3d5785;
-            }
-            .key {
-                background-color: orange;
-            }
-        }
-        .navbar-nav>li> {
-            a {
-                color: #100000;
-                background-color: inherit;
-            }
-        }
-        .third {
-            color: #FFFFFF;
-            text-align: center;
-            margin-top: 5em;
-            margin-left: 22em;
-            margin-bottom: 12em;
-            h2 {
-                font-size: 30px;
-            }
-        }
-        .fourth {
-            text-align: center;
-            .extra {
-                margin-top: 35vh;
-                background-color: rgba(61, 87, 133, 1);
-                font-weight: bold;
-            }
-            .alpha {
-                background-color: #4a626b;
-                margin-left: -15px;
-                margin-top: 5.5vh;
-                h5 {
-                    font-weight: bold;
-                    font-size: 19px;
+        body {
+            #land {
+                background-color: #ECEDF1;
+                padding: 0;
+                overflow-x: hidden;
+                .first {
+                    color: #304370;
+                }
+                .second {
+                    background-color: #FBFBFB;
+                    line-height: 40px;
+                    .mail {
+                        color: #100000;
+                        text-align: right;
+                    }
+                    .key {
+                        background-color: #DA9F19;
+                        color: #FFFFFF;
+                        text-align: center;
+                    }
+                    .number {
+                        background-color: #364C71;
+                        color: #FFFFFF;
+                    }
+                }
+                .third {
+                    background-color: #F7B432;
+                    height: 152px;
+                    color: #FFFFFF;
+                    .rower {
+                        color: #FFFFFF;
+                    }
+                }
+                .fourth {
+                    background-color: #F7B432;
                     text-align: center;
-                    padding-top: 1.35em;
+                    height: 210px;
+                    color: #F9EAA3;
+                    position: relative;
+                    padding-left: 500px;
+                    padding-bottom: 100px;
+
+                }
+                .index {
+                    background-image: url("../images/Mountain.png");
+                    z-index: 3;
+                    position: relative;
+                    background-size: cover;
+                    margin-top: 135px;
+                    height: 36em;
+                }
+                .index-img-text {
+                    margin-top: -250px;
+                    .text {
+                        background-color: transparent;
+                        color: #FFFFFF;
+                        position: relative;
+                        padding-top: 150px;
+                        margin-top: 38px;
+                        .text-ele {
+                            background-color: #83959F;
+                            position: relative;
+                            text-align: center;
+                            padding: 21.3px;
+                            padding-right: 150px;
+                        }
+                        .icon {
+                            background-color: #83959F;
+                            line-height: 10px;
+                            position: relative;
+                            text-align: center;
+                            left: 140px;
+                        }
+                    }
+                    .form {
+                        z-index: 55;
+                        background-color: #354D71;
+                        color: #FFFFFF;
+                        padding: 30px;
+                        position: relative;
+                        right: 61px;
+                        bottom: 40px;
+                        width:317px;
+                        .button {
+                            background-color: #F7B333;
+                            text-align: center;
+                        }
+                    }
                 }
             }
+            footer {
+                background-color: #456A7B;
+                text-align: center;
+                color: #EFEFDD;
+                line-height: 80px;
+            }
         }
-    }
-    footer {
-        background-color: #456A7B;
-        text-align: center;
-        color: #EFEFDD;
-        line-height: 80px;
-    }
-}
