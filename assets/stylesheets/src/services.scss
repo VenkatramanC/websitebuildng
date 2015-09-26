@@ -1,30 +1,71 @@
 #services {
     color: #100000;
     background-color: #FFFFFF;
+
     .top {
         font-weight: bold;
-        font-size: 20px;
+        margin:0;
         background-color: rgba(100, 100, 100, 0.2);
         border-top: 1px solid;
         line-height: 3em;
+        text-align: left;
+        padding-left: 80px;
+      
+      .blog{
+        //text-align: left;
+        //
+      }
 
-      //.btn :btn-primary btn-lg active { 
-      //margin-top: 5em;
-      //margin-bottom: 3em;
-     // }
-        }
-    
+      .blog1 {
+       //text-align: left;
+       //padding-right: 80px;
+      }
+    }
+
     .first {
         background-color: transparent;
-       
+        margin-top: 15px;
+        .video {
+            background-image: url("../images/apple.jpg");
+            color: #FFFFFF;
+            padding-top: 140px;
+            background-size: cover;
+
+            .icon {
+                  padding-bottom: 30px;
+            }
+        }
+        
         h5 {
             color: rgba(255, 165, 84, 1);
         }
+
+        .spl{
+           color:#D6D7D9;
+        }
     }
+    
     .second {
-        background-color: transparent;
-         margin-top: 5vh;
-         margin-bottom: 15px;
+        //background-color: transparent;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        .spl{
+           color:#D6D7D9;
+        }
+    
+        .video {
+            background-image: url("../images/lappy.jpg");
+            color: #FFFFFF;
+            padding-top: 140px;
+            background-size: cover;
+
+            .icon{
+                padding-bottom: 30px;
+            }
+        }
+
+    
         h5 {
             color: rgba(255, 165, 84, 1);
         }

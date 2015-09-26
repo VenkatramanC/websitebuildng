@@ -4,12 +4,15 @@
     margin-top: 35px; }
     #info .first h4 {
       color: orange; }
+    #info .first p {
+      color: #FFFFFF; }
   #info .last {
-    font-size: 20px; }
+    font-size: 20px;
+    color: #FFFFFF; }
     #info .last .key {
       text-align: center;
+      background-color: #E49A1E; }
+    #info .last .number {
       background-color: #456A7B; }
-      #info .last .key .con {
-        background-color: orange; }
 
 /*# sourceMappingURL=info.css.map */
