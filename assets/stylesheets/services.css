@@ -3,18 +3,38 @@
   background-color: #FFFFFF; }
   #services .top {
     font-weight: bold;
-    font-size: 20px;
+    margin: 0;
     background-color: rgba(100, 100, 100, 0.2);
     border-top: 1px solid;
-    line-height: 3em; }
+    line-height: 3em;
+    text-align: left;
+    padding-left: 80px; }
   #services .first {
-    background-color: transparent; }
+    background-color: transparent;
+    margin-top: 15px; }
+    #services .first .video {
+      background-image: url("../images/apple.jpg");
+      color: #FFFFFF;
+      padding-top: 140px;
+      background-size: cover; }
+      #services .first .video .icon {
+        padding-bottom: 30px; }
     #services .first h5 {
       color: #ffa554; }
+    #services .first .spl {
+      color: #D6D7D9; }
   #services .second {
-    background-color: transparent;
-    margin-top: 5vh;
+    margin-top: 15px;
     margin-bottom: 15px; }
+    #services .second .spl {
+      color: #D6D7D9; }
+    #services .second .video {
+      background-image: url("../images/lappy.jpg");
+      color: #FFFFFF;
+      padding-top: 140px;
+      background-size: cover; }
+      #services .second .video .icon {
+        padding-bottom: 30px; }
     #services .second h5 {
       color: #ffa554; }
 
